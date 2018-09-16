@@ -1776,8 +1776,7 @@ public class PanelAjustes extends javax.swing.JPanel {
         if(!Alias.isEmpty()){
             Alias.clear();
         }
-        
-        
+             
         //Images.clear();
         Conf.SetMultiCast(multicast.getText());
         String a=multicast.getText();
@@ -1931,7 +1930,7 @@ public class PanelAjustes extends javax.swing.JPanel {
         Conf.SetListaImages(Images);
         
         try{
-            cor.WriteXml(Conf,"configuracion.xml");
+            cor.WriteXml(Conf,"config.xml");
             //cor.WriteXml(Conf,"conf");
             
             JOptionPane.showMessageDialog(null, "Configuracion guardada exitosamente");

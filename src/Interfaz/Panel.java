@@ -147,8 +147,7 @@ public class Panel extends javax.swing.JFrame {
     
     public void SetMSG(String Texto,boolean status){
         this.MSG.setText(Texto);
-       
-      
+           
     }
     
     public void TurnOffSend(){

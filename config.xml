@@ -7,7 +7,7 @@
 <PortUDP>10005</PortUDP>
 </SERVIDOR>
 <ASIO>
-<CANAL id="user1">1</CANAL>
+<CANAL id="rubena">1</CANAL>
 <CANAL id="user2">2</CANAL>
 <CANAL id="user3">3</CANAL>
 <CANAL id="user4">4</CANAL>
